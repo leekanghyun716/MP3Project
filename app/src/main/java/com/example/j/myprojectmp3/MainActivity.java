@@ -10,6 +10,7 @@ import android.os.Environment;
 import android.os.SystemClock;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -45,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        Log.d("MainActivity","");
         listView = findViewById(R.id.listView);
         seekBar = findViewById(R.id.seekBar);
         btnInsert = findViewById(R.id.btnInsert);
